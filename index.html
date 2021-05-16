@@ -1,0 +1,457 @@
+<html>
+
+<head>
+  <title>Restaurant Direct</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+    @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+    @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+
+    @media only screen and (min-width: 1250px) {
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+      }
+
+      .nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 8vh;
+        transition: background 0.5s;
+        background-color: transparent;
+        position: fixed;
+        width: 100%;
+        font-family: roboto;
+        font-weight: 500;
+      }
+
+      .brand {
+        font-size: 29px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: rgb(0, 0, 0);
+        letter-spacing: 2.5px;
+        display: block;
+      }
+
+      .brand a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        /* This is for the top left thingy mafiger */
+      }
+
+      .nav-content {
+        display: flex;
+        justify-content: space-around;
+        width: 45%;
+        margin-right: -10%;
+        letter-spacing: 1.5px;
+      }
+
+      .nav-content li {
+        list-style: none;
+      }
+
+      .nav-content a {
+        text-decoration: none;
+        list-style: none;
+        color: rgb(0, 0, 0);
+        /* This is the one that matters for the text taskbar*/
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 19px;
+      }
+
+      .nav-scroll {
+        background-color: rgba(0, 0, 0, 0.945);
+        color: rgb(255, 255, 255);
+      }
+
+      .nav-scroll a {
+        color: rgb(253, 253, 253);
+      }
+
+      .header-stuff {
+        background-image: url("nig2.PNG");
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        text-transform: uppercase;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding-top: 10.5%;
+        font-size: 45px;
+        font-family: roboto;
+        letter-spacing: 2.25px;
+        background-position: 0px;
+      }
+
+      @keyframes changing-text {
+        33% {
+          content: "Download the App Today";
+        }
+
+        66% {
+          content: "Download the App Today";
+        }
+      }
+
+      .animated::after {
+        z-index: 5;
+        font-size: 50px;
+        content: "Download the App Today";
+        animation: changing-text 5s infinite;
+        background-image: url(google24.png);
+        background-repeat: no-repeat;
+        background-position-x: 420px;
+        background-position-y: -169px;
+      }
+
+      .about-head {
+        text-transform: uppercase;
+        font-size: 35px;
+        padding-top: 5%;
+        text-align: center;
+        color: rgb(48, 58, 61);
+        font-family: roboto;
+        background-image: url(jeriwefnisfisfis.PNG);
+
+      }
+
+      .about-grid {
+        display: grid;
+        width: 100%;
+        margin-top: 2%;
+        color: rgb(48, 58, 61);
+
+      }
+
+      .about-picture {
+        width: 100%;
+        height: auto;
+
+      }
+
+      #me-pic {
+        width: 15%;
+        height: auto;
+        border-radius: 1000px 1000px 1000px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .about-para {
+
+        font-family: raleway;
+        font-size: 23px;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        line-height: 45px;
+        padding: 15px 10px 10px 10px;
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-image: url("jeriwefnisfisfis (2).PNG");
+      }
+
+      .projects-head {
+        text-transform: uppercase;
+        padding-top: 10%;
+        text-align: center;
+        font-size: 40px;
+        color: rgb(48, 58, 61);
+        font-family: roboto;
+        overflow-y: hidden;
+      }
+
+      .projects-sub-head1 {
+        text-transform: uppercase;
+        padding-top: 10%;
+        text-align: center;
+        font-size: 35px;
+        color: rgb(48, 58, 61);
+        font-weight: normal;
+        font-family: roboto;
+      }
+
+      .projects-grid {
+        display: grid;
+        grid-template-columns: 30% 30%;
+        justify-items: center;
+        margin-right: -65%;
+        padding-top: 10%;
+        color: rgb(48, 58, 61);
+        font-size: 30px;
+        font-weight: bold;
+        grid-template-rows: auto auto auto;
+        row-gap: 96px;
+        font-family: source sans pro;
+        letter-spacing: 1px;
+        line-height: 30px;
+        word-spacing: 3px;
+        background-image: url(foodz123.jpg);
+      }
+
+      .project {
+        padding: 50px 50px 50px 50px;
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+        background-color: dimgray;
+        width: 50%;
+        text-align: center;
+        border-radius: 25px;
+        animation: unelevate 1s forwards;
+        color: ghostwhite;
+      }
+
+      .project:hover {
+        animation: elevate 1s forwards;
+      }
+
+      .project a {
+        text-decoration: none;
+        text-decoration-color: none;
+        color: ghostwhite;
+      }
+
+      #projectText1 {
+        font-size: 20px;
+        font-weight: 100;
+        margin-top: 25px;
+        text-transform: capitalize;
+      }
+
+      #projectText2 {
+        font-size: 20px;
+        font-weight: 100;
+        margin-top: 25px;
+        text-transform: capitalize;
+      }
+
+      #projectText3 {
+        font-size: 20px;
+        font-weight: 100;
+        margin-top: 25px;
+        text-transform: capitalize;
+      }
+
+      #projectText4 {
+        font-size: 20px;
+        font-weight: 100;
+        margin-top: 25px;
+        text-transform: capitalize;
+      }
+      .OurMission{
+        font-family: raleway;
+        font-size: 23px;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        line-height: 45px;
+        padding: 15px 10px 10px 10px;
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-bottom: 400px;
+        background-image: url(apple83.jpg);
+        background-repeat: no-repeat;
+        background-position-x: 420px;
+        background-position-y: 96px;
+
+      }
+
+      .contacts {
+        display: grid;
+        grid-template-columns: 10% 10% 10%;
+        background-color: black;
+        width: 150%;
+        height: 30%;
+        color: white;
+        justify-items: center;
+        align-items: center;
+        font-family: source sans pro;
+        font-size: 20px;
+        background-color: rgb(30, 30, 30);
+        font-weight: lighter;
+        letter-spacing: 2px;
+        padding-left: 35%;
+      }
+
+      .contact {
+        border: solid;
+        padding: 15px 15px 15px 15px;
+        color: rgb(121, 167, 204);
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
+      #contact {
+        text-transform: uppercase;
+        color: rgb(230, 230, 230);
+        font-weight: bolder;
+        font-size: 35px;
+      }
+
+      @keyframes change_background_stuff_contact {
+        to {
+          background-color: rgb(121, 167, 204);
+          color: rgb(30, 30, 30);
+        }
+      }
+
+      @keyframes change_background_stuff_contact_a {
+        to {
+          color: rgb(30, 30, 30);
+        }
+      }
+
+      .contact a {
+        text-decoration: none;
+        color: rgb(121, 167, 204);
+      }
+
+      .contact:hover {
+        animation: change_background_stuff_contact 1s forwards;
+      }
+
+      .contact:hover a {
+        animation: change_background_stuff_contact_a 1s forwards;
+      }
+    }
+  </style>
+  <script>
+    function afterScroll() {
+      let nav = document.querySelector(".nav");
+      let links = document.querySelectorAll(".nav-content a");
+
+      if (window.pageYOffset > 0) {
+        nav.classList.add("nav-scroll");
+        links.classList.add("nav-scroll");
+      } else {
+        nav.classList.remove("nav-scroll");
+        links.classList.remove("nav-scroll");
+      }
+    }
+    window.addEventListener("scroll", afterScroll);
+
+    function projectsText(element, aboutText) {
+      let x = document.querySelector(element);
+      let y = document.createElement("p");
+      y.appendChild(document.createTextNode(aboutText));
+      x.appendChild(y);
+      y.style.animation = "open_project_text 1s";
+      window.scroll();
+    }
+    function removeProjectsText(element) {
+      let x = document.querySelector(element);
+      x.innerHTML = "";
+    }
+  </script>
+  <link rel="icon" href="./rkLogo.png" />
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="brand">
+      <a href="#">RestaurantDirect</a>
+    </div>
+    <ul class="nav-content">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Partners</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="header-stuff">
+    <h1 class="header-text-1"></h1>
+    <h1 class="header-text-2"></h1>
+
+    <br />
+    <br />
+    <h2 class="animated"></h2>
+  </div>
+  <div class="about-para">
+    Hi we are Restaurant Direct.
+    We are four high school students who joined this program called Timeraiser Accelerator at our school.
+    The program allowed us to focus on a problem that we were passionate in solving and create a service that can help
+    tackle that issue.
+    During the Covid-19 pandemic, we noticed that restaurants have resorted to using third party applications such as
+    Uber in
+    order for people to order takeout online or for delivery.
+    These third party applications essentially take a large commission out of the restaurants bill which can
+    detrimentally impact a restaurant. Anyway, our team has worked on an online ordering service and platform that can
+    help restaurants digitally connect with their customers and also let them keep their money. For people that use our
+    app,
+    they are able to get cheaper prices and be a part of our digital loyalty program.
+  </div>
+  <div class="projects-full">
+
+   <h2 class="projects-head" id="projects">Restaurants</h2>
+    <h2 class="projects-sub-head1" id="projects">Restaurants using our app</h2>
+    <div class="projects-grid">
+      <div class="project">
+        <a href="">Burger</a>
+        <div id="projectText1">
+          Fortnite buuger
+        </div>
+      </div>
+      <div class="project">
+        <a href="">Hot dogs</a>
+        <div id="projectText2">
+          Hot doge
+        </div>
+      </div>
+      <div class="project">
+        <a href="\">Pogger</a>
+        <div id="projectText4">
+          DaBaby
+        </div>
+      </div>
+      <div class="project">
+        <a href="">Not pogger</a>
+        <div id="projectText4">
+          Invertibruh
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="projects-sub-head1" id="projects">Restaurant Direct's Mission</h2>
+  <div class="OurMission">
+    Our mission is to provide the best online ordering system for restaurants and the best online ordering experience for their customers. 
+    Our app is part of our initiative to help out restaurants during this pandemic and allow restaurants to take control of <em><strong>their own market
+     again.</strong><em>
+  </div>
+  <div class="contacts">
+    <div></div>
+    <h1 id="contact"><strong>contact</strong></h1>
+    <div></div>
+    <div class="contact">
+      <a href="">Gmail</a>
+    </div>
+    <div class="contact">
+      <a href="">Instagram</a>
+    </div>
+    <div class="contact">
+      <a href="">Twitter</a>
+    </div>
+  </div>
+</body>
+
+</html>
