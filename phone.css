@@ -1,0 +1,1055 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ad3lap {
+    display: none;
+}
+
+.phonetitle h1 {
+    color: #45BF6C;
+    font-size: 1.7rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: .5rem .5rem .5rem rgb(236, 235, 235);
+}
+
+.nav {
+    display: none;
+}
+
+.nav:hover {
+    transition: underline, 0.0, 0.0;
+
+}
+
+.background {
+    background-image: url("images/Image\ 2022-11-18\ at\ 2.32\ PM\ 2.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: none;
+}
+
+.home {
+    padding: 2rem;
+}
+
+.home h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.home p {
+    padding-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.storelinks {
+    padding-top: 1rem;
+}
+
+.storelinks a {
+    text-decoration: none;
+    color: #45BF6C;
+    padding-right: 5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.buttons {
+    display: none;
+}
+
+.ad1 {
+    display: none;
+}
+
+.background2 {
+    background-image: url("images/phone1.png");
+    width: 100%;
+    height: 120vw;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+
+
+.background3 {
+    background-image: url("images/phone2.png");
+    width: 100%;
+    height: 60vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.userid {
+    top: 33.5%;
+    left: 8%;
+    background-color: #45BF6C;
+    padding: .3rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    border-radius: 3px;
+}
+
+.userid h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 25px;
+    width: 100%;
+    gap: 1.5rem;
+    border-radius: 10px;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.grid-item {
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    width: 10rem;
+    height: 12rem;
+}
+
+.titlerow {
+    display: flex;
+    flex-direction: row;
+}
+
+/* grid item text */
+
+.grid-item h2 {
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    padding-right: 5px;
+    padding-top: 1rem;
+}
+
+.grid-item h3 {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    color: #45BF6C;
+    padding-right: 5px;
+    padding-left: 10px;
+    padding-top: 1rem;
+}
+
+.grid-item p {
+    padding-top: .5rem;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+    font-weight: 300;
+}
+
+/* Restaurant Page*/
+
+.restaurantid {
+    top: 93%;
+    left: 8%;
+    background-color: #45BF6C;
+    padding: .3rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    border-radius: 3px;
+    margin-top: .2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.restaurantid h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+}
+
+.restaurantid p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 3px;
+    padding-left: 3rem;
+}
+
+.grid-container-r {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 25px;
+    width: 100%;
+    gap: 1.5rem;
+    border-radius: 10px;
+    align-items: center;
+    padding-top: 15px;
+
+}
+
+.grid-item-r {
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    width: 10rem;
+    height: 10.8rem;
+}
+
+.titlerow {
+    display: flex;
+    flex-direction: row;
+}
+
+/* grid item text Restaurant */
+
+.grid-item-r h2 {
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    padding-right: 5px;
+    padding-top: 1rem;
+}
+
+.grid-item-r h3 {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    color: #45BF6C;
+    padding-right: 5px;
+    padding-left: 10px;
+    padding-top: 1rem;
+}
+
+.grid-item-r p {
+    padding-top: .5rem;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+    font-weight: 300;
+}
+
+.ad2 {
+    background-color: #45BF6C;
+    padding: 10px;
+}
+
+.ad2 h2 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 12px;
+}
+
+.ad3 {
+    width: 100%;
+}
+
+.ad3 h2 {
+    background-color: #EFEFEF;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 600px;
+    margin-left: 12rem;
+    font-family: 'Inter';
+}
+
+.form-box {
+    border: none;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    margin-top: 20px;
+
+}
+
+.form-box h2 {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.form-box label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-box select {
+    resize: none;
+    height: calc(5vh);
+    width: calc(130vh);
+    text-align: center;
+    font-size: 16px;
+}
+
+.form-box select {
+    width: 20%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #45BF6C;
+    border-radius: 7px;
+    background-color: #fff;
+    color: #000;
+
+}
+
+.form-box textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #45BF6C;
+    border-radius: 7px;
+    background-color: #fff;
+    color: #000;
+}
+
+.form-box textarea {
+    resize: none;
+    height: calc(5vh);
+    width: calc(80vh);
+    font-size: 20px;
+    font-family: inter;
+}
+
+.form-box input[type="submit"] {
+    background-color: #45BF6C;
+    color: #fff;
+    padding: 8px 24px;
+    border: 2px solid #45BF6C;
+    border-radius: 7px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10x;
+    font-size: larger;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.form-box input[type="submit"]:hover {
+    background-color: transparent;
+    color: #45BF6C;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
+.last {
+    width: 100%;
+    top: 350%;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.last h2 {
+    margin-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-left: 2rem;
+}
+
+.last p {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.contacts {
+    background-color: black;
+    padding: 3rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.contacts h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    margin-top: 2rem;
+    border: 2px solid black;
+    background-color: black;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.gmail {
+    border-color: #45BF6C;
+    color: #45BF6C;
+    border-radius: 5px;
+    padding: 14px 30px;
+}
+
+.gmail a {
+    text-decoration: none;
+    color: white;
+}
+
+.gmail:hover {
+    background-color: #45BF6C;
+    color: white;
+    transition: 0.2s;
+}
+
+.twitter {
+    border-color: #45BF6C;
+    color: #45BF6C;
+    border-radius: 5px;
+    padding: 14px 30px;
+    margin-left: .8rem;
+}
+
+.twitter a {
+    text-decoration: none;
+    color: white;
+}
+
+.twitter:hover {
+    background-color: #45BF6C;
+    color: white;
+    transition: 0.2s;
+}
+
+.instagram {
+    border-color: #45BF6C;
+    color: #45BF6C;
+    border-radius: 5px;
+    padding: 14px 15px;
+}
+
+.instagram a {
+    text-decoration: none;
+    color: white;
+}
+
+.instagram:hover {
+    background-color: #45BF6C;
+    color: white;
+    transition: 0.2s;
+}
+
+.tiktok {
+    border-color: #45BF6C;
+    color: #45BF6C;
+    border-radius: 5px;
+    margin-left: .8rem;
+    padding: 14px 30px;
+}
+
+.tiktok a {
+    text-decoration: none;
+    color: white;
+}
+
+.tiktok:hover {
+    background-color: #45BF6C;
+    color: white;
+    transition: 0.2s;
+}
+
+
+
+
+/*iphone 7 size*/
+@media only screen and (max-width: 380px) {
+    .storelinks a {
+        text-decoration: none;
+        color: #45BF6C;
+        padding-right: 3rem;
+    }
+
+    .background2 {
+        background-image: url("images/phone1.png");
+        width: 100%;
+        height: 121vw;
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .background3 {
+        background-image: url("images/phone2.png");
+        width: 100%;
+        height: 121vw;
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .userid {
+        top: 33.5%;
+        left: 8%;
+        background-color: #45BF6C;
+        padding: .3rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        border-radius: 3px;
+    }
+
+    .userid h2 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        color: white;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 18px;
+        width: 100%;
+        gap: 1.5rem;
+        border-radius: 10px;
+        align-items: center;
+        padding-top: 12px;
+    }
+
+    .grid-item {
+        background-color: white;
+        text-align: center;
+        border-radius: 5px;
+        width: 10rem;
+        height: 12rem;
+    }
+
+    .titlerow {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* grid item text */
+
+    .grid-item h2 {
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        padding-right: 5px;
+        padding-top: 1rem;
+    }
+
+    .grid-item h3 {
+        font-size: 15px;
+        font-family: 'Inter', sans-serif;
+        color: #45BF6C;
+        padding-right: 5px;
+        padding-left: 10px;
+        padding-top: 1rem;
+    }
+
+    .grid-item p {
+        padding-top: .5rem;
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: left;
+        font-weight: 300;
+    }
+
+    .restaurantid {
+        top: 93%;
+        left: 8%;
+        background-color: #45BF6C;
+        padding: .3rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        border-radius: 3px;
+        margin-top: .2rem;
+    }
+
+    .restaurantid h2 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        color: white;
+    }
+
+    .grid-container-r {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 18px;
+        width: 100%;
+        gap: 1.5rem;
+        border-radius: 10px;
+        align-items: center;
+        padding-top: 15px;
+
+    }
+
+    .grid-item-r {
+        background-color: white;
+        padding: 5px;
+        text-align: center;
+        border-radius: 5px;
+        width: 10rem;
+        height: 10.8rem;
+    }
+
+    .titlerow {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* grid item text Restaurant */
+
+    .grid-item-r h2 {
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        padding-right: 5px;
+        padding-top: 1rem;
+    }
+
+    .grid-item-r h3 {
+        font-size: 15px;
+        font-family: 'Inter', sans-serif;
+        color: #45BF6C;
+        padding-right: 5px;
+        padding-left: 10px;
+        padding-top: 1rem;
+    }
+
+    .grid-item-r p {
+        padding-top: .5rem;
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: left;
+        font-weight: 300;
+    }
+
+
+}
+
+
+/*laptop style*/
+
+@media only screen and (min-width: 1219px) {
+    .phonetitle {
+        display: none;
+    }
+
+    .background {
+        display: block;
+    }
+
+    .storelinks {
+        display: none;
+    }
+
+    .buttons {
+        display: block;
+    }
+
+    .grid-container-p {
+        display: none;
+    }
+
+    .userid {
+        display: none;
+    }
+
+    .restaurantid {
+        display: none;
+    }
+
+    .ad3 {
+        display: none;
+    }
+
+    .ad3lap {
+        display: block;
+        width: 100%;
+    }
+
+    .ad3lap h2 {
+        background-color: #EFEFEF;
+        padding: 30px;
+        text-align: center;
+        color: black;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+
+    .nav {
+        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 1rem 6.5rem;
+        box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+    }
+
+    .nav h1 {
+        color: #45BF6C;
+        font-size: 1.7rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+
+    }
+
+    .nav item {
+        transition: ease-in 0.25
+    }
+
+    #item {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #item li {
+        list-style: none;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+    #item li a {
+        text-decoration: none;
+        font-size: 1rem;
+        color: black;
+        font-size: 15px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+    }
+
+    #item li a:hover {
+        cursor: pointer;
+    }
+
+    .home {
+        position: absolute;
+        top: 45%;
+        left: 12%;
+        width: 30%;
+    }
+
+    .home h1 {
+        color: black;
+        font-size: 27px;
+        font-family: 'Roboto', sans-serif;
+        box-sizing: border-box;
+        font-weight: bold;
+    }
+
+    .home p {
+        padding-top: 8%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    }
+
+    .buttons {
+        width: 50rem;
+        margin-top: 8%;
+    }
+
+    .item #href {
+        transition: underline, 0ms, 0ms;
+
+
+    }
+
+    .buttons a {
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        text-decoration: none;
+        text-align: center;
+        width: 12.5rem;
+        border: solid 0.18rem #45BF6C;
+        color: black;
+        padding: 0.63rem 0;
+        border-radius: 0.63rem;
+        font-size: 1.3rem;
+        cursor: pointer;
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+
+    }
+
+    #leftbutton {
+        margin-left: 5%;
+    }
+
+    .buttons a:hover {
+        color: white;
+        background: #45BF6C;
+        border: solid 0.18rem #45BF6C;
+        transition: 0.2s;
+    }
+
+    .ad1 {
+        display: block;
+        background-color: #45BF6C;
+        padding: 30px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+    }
+
+    .background2 {
+        background-image: url("images/Page\ 2\ background.png");
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #45bf6cdf;
+        padding: 30px;
+        width: 45%;
+        gap: 1.5rem;
+        border-radius: 10px;
+        position: absolute;
+        top: 135%;
+        left: 12%;
+    }
+
+    .grid-item {
+        background-color: white;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .grid-item h2 {
+        font-size: 20px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+    }
+
+    .grid-item p {
+        padding-top: 1rem;
+        font-size: 13px;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .grid-item h3 {
+        font-size: 20px;
+        font-family: 'Inter', sans-serif;
+        color: #45BF6C;
+    }
+
+    .ad2 {
+        background-color: #45BF6C;
+        padding: 30px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+    }
+
+    .ad2 h2 {
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .background3 {
+        background-image: url("images/Page\ 3\ background.png");
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .grid-container-r {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #45bf6cdf;
+        padding: 30px;
+        width: 45%;
+        gap: 1.5rem;
+        border-radius: 10px;
+        position: absolute;
+        top: 250%;
+        left: 12%;
+    }
+
+    .grid-item-r {
+        background-color: white;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .grid-item-r h2 {
+        font-size: 20px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+    }
+
+    .grid-item-r p {
+        padding-top: 1rem;
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .grid-item-r h3 {
+        font-size: 20px;
+        font-family: 'Inter', sans-serif;
+        color: #45BF6C;
+    }
+
+    .last {
+        width: 50%;
+        margin-left: 10rem;
+        top: 350%;
+    }
+
+    .last h2 {
+        margin-top: 2rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    }
+
+    .last p {
+        margin-top: 2rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    }
+
+    .contacts {
+        background-color: black;
+        padding: 3rem;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .contacts h2 {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .btn {
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        border: 2px solid black;
+        background-color: black;
+        color: black;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .gmail {
+        border-color: #45BF6C;
+        color: #45BF6C;
+        border-radius: 8px;
+        margin-right: 4rem;
+    }
+
+    .gmail a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .gmail:hover {
+        background-color: #45BF6C;
+        color: white;
+        transition: 0.2s;
+    }
+
+    .twitter {
+        border-color: #45BF6C;
+        color: #45BF6C;
+        border-radius: 8px;
+        margin-right: 4rem;
+    }
+
+    .twitter a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .twitter:hover {
+        background-color: #45BF6C;
+        color: white;
+        transition: 0.2s;
+    }
+
+    .instagram {
+        border-color: #45BF6C;
+        color: #45BF6C;
+        border-radius: 8px;
+        margin-right: 4rem;
+    }
+
+    .instagram a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .instagram:hover {
+        background-color: #45BF6C;
+        color: white;
+        transition: 0.2s;
+    }
+
+    .tiktok {
+        border-color: #45BF6C;
+        color: #45BF6C;
+        border-radius: 8px;
+    }
+
+    .tiktok a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .tiktok:hover {
+        background-color: #45BF6C;
+        color: white;
+        transition: 0.2s;
+    }
+
+}
